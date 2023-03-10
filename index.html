@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤PARA LA MUJER QUE ME HIZO UN AMARRE ❤</title>
+    <style>
+        .body {
+            background-color: crimson;
+            text-align: center;
+
+        }
+
+        .body__title {
+            color: white;
+        }
+        .body__img  {
+            width: 100%;
+            border-radius: 50%;
+        }
+        
+    </style>
+</head>
+
+<body class="body">
+    <h1 class="body__title">❤ Tengo algo importante que decirte...❤ </h1>
+    <h2 class="body__title">❤Asi que nos vemos el sabado nena❤</h2>
+    <h2 class="body__title">❤¿Asektas?❤</h2>
+    <img src="https://cinepremiere.com.mx/assets/images/noticias/2017/04-abril/Shrek.jpg" 
+    alt="Esta foto por la primera vez que vimos sherk :v" class="body__img">
+    <button id="yes">❤Si Asekto papasito❤</button>
+    <button id="no">😞Nel kyc😞</button>
+
+    <script>
+        const vutonSi=document.getElementById('yes');
+        const vutonNo=document.getElementById('no');
+
+        const zomosnobios = () => {
+            alert('❤ YA SABIA QUE DIRIAS QUE SI❤');
+            alert('❤Nos vemos en villa a las 3 ❤');
+            location.href ='https://www.youtube.com/watch?v=ABm-bFdgQdM';
+             }
+
+             const ebitarkserompamyboton = () => {
+                vutonNo.style.position ='absolute';
+                vutonNo.style.top =(Math.random() * window.innerHeight) + 'px';
+                vutonNo.style.left =(Math.random() * window.innerWidth) + 'px';
+                }
+
+                vutonSi.addEventListener('click',zomosnobios);
+                vutonNo.addEventListener('mouseover',ebitarkserompamyboton);
+    </script>
+    
+</body>
+</html>
